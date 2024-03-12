@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.calculator {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #b9b5b5;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.display {
+  font-size: 24px;
+  padding: 35px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: right;
+  color: black;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  font-size: 18px;
+  padding: 15px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.clear {
+  background-color: #ff5722;
+}
+.operator {
+  background-color: #2196f3;
+}
+.evaluate {
+  background-color: #ffeb3b;
+}
+.del {
+  background-color: #ff5722;
+}
